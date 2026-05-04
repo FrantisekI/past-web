@@ -1,0 +1,42 @@
+{
+  "q2_buses": {
+    "berlin": 0.25,
+    "london": 0.25,
+    "saopaulo": 0.25,
+    "none": 0.25
+  },
+  "q1_moon": {
+    "sputnik": 0.4,
+    "football": 0.4,
+    "none": 0.2
+  },
+  "q3_jordan": {
+    "bahrain": 0.05,
+    "senegal": 0.05,
+    "israel": 0.05,
+    "czechia": 0.05,
+    "australia": 0.05,
+    "north_korea": 0.05,
+    "south_africa": 0.05,
+    "japan": 0.05,
+    "mongolia": 0.05,
+    "france": 0.05,
+    "mexico": 0.05,
+    "canada": 0.05,
+    "bolivia": 0.05,
+    "argentina": 0.05,
+    "bhutan": 0.05,
+    "none": 0.25
+  },
+  "q4_radio_tv": {
+    "ireland": 0.4,
+    "audio": 0.4,
+    "none": 0.2
+  },
+  "q5_mars": {
+    "oxygen": 0.25,
+    "match": 0.25,
+    "water": 0.25,
+    "none": 0.25
+  }
+}

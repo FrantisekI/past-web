@@ -1,0 +1,10 @@
+{
+  "measuring": ["feedback"],
+  "anchoring": {
+    "q2_buses": ["berlin", "london", "saopaulo", "none"],
+    "q1_moon": ["sputnik", "football", "none"],
+    "q3_jordan": ["bahrain", "senegal", "israel", "czechia", "australia", "north_korea", "south_africa", "japan", "mongolia", "france", "mexico", "canada", "bolivia", "argentina", "bhutan", "none"],
+    "q4_radio_tv": ["ireland", "audio", "none"],
+    "q5_mars": ["oxygen", "match", "water", "none"]
+  }
+}

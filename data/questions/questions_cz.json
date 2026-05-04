@@ -1,0 +1,231 @@
+{
+  "q2_buses_berlin": {
+    "title": "Pražská doprava",
+    "context": "V německém Berlíně provozuje město přibližně 1 500 autobusů.",
+    "comparison": "Myslíte si, že Dopravní podnik hl. m. Prahy (DPP) provozuje více nebo méně než toto množství autobusů?",
+    "comparison_labels": ["Více", "Méně"],
+    "estimate": "Kolik autobusů si myslíte, že DPP celkem provozuje?",
+    "units": "autobusů"
+  },
+  "q2_buses_london": {
+    "title": "Pražská doprava",
+    "context": "V britském Londýně provozuje město přibližně 8 500 autobusů.",
+    "comparison": "Myslíte si, že Dopravní podnik hl. m. Prahy (DPP) provozuje více nebo méně než toto množství autobusů?",
+    "comparison_labels": ["Více", "Méně"],
+    "estimate": "Kolik autobusů si myslíte, že DPP celkem provozuje?",
+    "units": "autobusů"
+  },
+  "q2_buses_saopaulo": {
+    "title": "Pražská doprava",
+    "context": "V brazilském São Paulu provozuje město přibližně 14 000 autobusů.",
+    "comparison": "Myslíte si, že Dopravní podnik hl. m. Prahy (DPP) provozuje více nebo méně než toto množství autobusů?",
+    "comparison_labels": ["Více", "Méně"],
+    "estimate": "Kolik autobusů si myslíte, že DPP celkem provozuje?",
+    "units": "autobusů"
+  },
+  "q2_buses_none": {
+    "title": "Pražská doprava",
+    "estimate": "Kolik autobusů si myslíte, že DPP celkem provozuje?",
+    "units": "autobusů"
+  },
+  "q1_moon_sputnik": {
+    "title": "Průzkum vesmíru",
+    "context": "Mezi startem Sputniku 1 na oběžnou dráhu Země a prvním přistáním na Měsíci uplynulo 11 let.",
+    "comparison": "Myslíte si, že lidé znovu přistanou na Měsíci za více nebo méně než 11 let od nynějška?",
+    "comparison_labels": ["Více", "Méně"],
+    "estimate": "Za kolik let si myslíte, že lidé znovu přistanou na Měsíci?",
+    "units": "let"
+  },
+  "q1_moon_football": {
+    "title": "Průzkum vesmíru",
+    "context": "V jednom fotbalovém týmu je 11 hráčů.",
+    "comparison": "Myslíte si, že lidé znovu přistanou na Měsíci za více nebo méně než 11 let od nynějška?",
+    "comparison_labels": ["Více", "Méně"],
+    "estimate": "Za kolik let si myslíte, že lidé znovu přistanou na Měsíci?",
+    "units": "let"
+  },
+  "q1_moon_none": {
+    "title": "Průzkum vesmíru",
+    "estimate": "Za kolik let si myslíte, že lidé znovu přistanou na Měsíci?",
+    "units": "let"
+  },
+  "q3_jordan_bahrain": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Bahrajnu je 122 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_senegal": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Senegalu je 648 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_israel": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Izraele je 1208 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_czechia": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Česka (Sněžka) je 1603 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_australia": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Austrálie je 2228 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_north_korea": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Severní Koreje je 2744 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_south_africa": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Jihoafrické republiky je 3450 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_japan": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Japonska je 3776 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_mongolia": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Mongolska je 4374 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_france": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Francie (Mont Blanc) je 4810 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_mexico": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Mexika je 5636 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_canada": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Kanady je 5959 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_bolivia": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Bolívie je 6542 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_argentina": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Argentiny je 6960 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_bhutan": {
+    "title": "Geografie",
+    "context": "Nejvyšší bod Bhútánu je 7570 metrů nad mořem.",
+    "comparison": "Myslíte si, že nejvyšší bod Jordánska je výše nebo níže než tato nadmořská výška?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q3_jordan_none": {
+    "title": "Geografie",
+    "estimate": "Jak vysoko si myslíte, že je nejvyšší bod Jordánska?",
+    "units": "metrů"
+  },
+  "q4_radio_tv_ireland": {
+    "title": "Veřejné služby",
+    "context": "V Irsku platí přibližně 320 Kč (13 EUR) měsíčně za veřejnoprávní rozhlas a televizi.",
+    "comparison": "Byli byste ochotni platit více nebo méně než 320 Kč za veřejnoprávní rozhlas a televizi?",
+    "comparison_labels": ["Více", "Méně"],
+    "estimate": "Kolik byste byli ochotni měsíčně platit za veřejnoprávní rozhlas a televizi?",
+    "units": "Kč"
+  },
+  "q4_radio_tv_audio": {
+    "title": "Veřejné služby",
+    "context": "Kvalita zvuku považovaná u streamovacích služeb za vysokou je 320 kbps.",
+    "comparison": "Byli byste ochotni platit více nebo méně než 320 Kč za veřejnoprávní rozhlas a televizi?",
+    "comparison_labels": ["Více", "Méně"],
+    "estimate": "Kolik byste byli ochotni měsíčně platit za veřejnoprávní rozhlas a televizi?",
+    "units": "Kč"
+  },
+  "q4_radio_tv_none": {
+    "title": "Veřejné služby",
+    "estimate": "Kolik byste byli ochotni měsíčně platit za veřejnoprávní rozhlas a televizi?",
+    "units": "Kč"
+  },
+  "q5_mars_oxygen": {
+    "title": "Planetární vědy",
+    "context": "Kyslík taje při −218,79 °C.",
+    "comparison": "Myslíte si, že průměrná denní teplota na Marsu je vyšší nebo nižší než tato teplota?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jaká je podle vás průměrná denní teplota na Marsu ve stupních Celsia?",
+    "units": "°C"
+  },
+  "q5_mars_match": {
+    "title": "Planetární vědy",
+    "context": "Při -40 °C ukazují stupnice Celsia i Fahrenheita stejnou teplotu.",
+    "comparison": "Myslíte si, že průměrná denní teplota na Marsu je vyšší nebo nižší než tato teplota?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jaká je podle vás průměrná denní teplota na Marsu ve stupních Celsia?",
+    "units": "°C"
+  },
+  "q5_mars_water": {
+    "title": "Planetární vědy",
+    "context": "Voda mrzne při 0 °C.",
+    "comparison": "Myslíte si, že průměrná denní teplota na Marsu je vyšší nebo nižší než tato teplota?",
+    "comparison_labels": ["Výše", "Níže"],
+    "estimate": "Jaká je podle vás průměrná denní teplota na Marsu ve stupních Celsia?",
+    "units": "°C"
+  },
+  "q5_mars_none": {
+    "title": "Planetární vědy",
+    "estimate": "Jaká je podle vás průměrná denní teplota na Marsu ve stupních Celsia?",
+    "units": "°C"
+  },
+  "feedback": {
+    "title": "Závěrečné poznámky",
+    "text": "Chtěli byste nám zanechat svůj e-mail nebo nám sdělit, zda jste již znali některé z hodnot uvedených v průzkumu?"
+  }
+}

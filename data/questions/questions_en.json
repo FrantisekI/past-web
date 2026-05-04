@@ -1,0 +1,232 @@
+{
+  "q2_buses_berlin": {
+    "title": "Prague Transport",
+    "context": "In Berlin, Germany the city operates approximately 1,500 buses.",
+    "comparison": "Do you think that Prague public transport (DPP) operates more or less than this number of buses?",
+    "comparison_labels": ["More", "Less"],
+    "estimate": "How many buses do you think Prague public transport (DPP) operates?",
+    "units": "buses"
+  },
+  "q2_buses_london": {
+    "title": "Prague Transport",
+    "context": "In London, UK the city operates approximately 8,500 buses.",
+    "comparison": "Do you think that Prague public transport (DPP) operates more or less than this number of buses?",
+    "comparison_labels": ["More", "Less"],
+    "estimate": "How many buses do you think Prague public transport (DPP) operates?",
+    "units": "buses"
+  },
+  "q2_buses_saopaulo": {
+    "title": "Prague Transport",
+    "context": "In São Paulo, Brazil the city operates approximately 14,000 buses.",
+    "comparison": "Do you think that Prague public transport (DPP) operates more or less than this number of buses?",
+    "comparison_labels": ["More", "Less"],
+    "estimate": "How many buses do you think Prague public transport (DPP) operates?",
+    "units": "buses"
+  },
+  "q2_buses_none": {
+    "title": "Prague Transport",
+    "estimate": "How many buses do you think Prague public transport (DPP) operates?",
+    "units": "buses"
+  },
+  "q1_moon_sputnik": {
+    "title": "Space Exploration",
+    "context": "Between Sputnik 1 went to Earth orbit and the first landing on the moon, there were 11 years.",
+    "comparison": "Not long ago there was a piloted journey around moon. Do you think that people will land on the moon in more or less than 11 years from now?",
+    "comparison_labels": ["More", "Less"],
+    "estimate": "In how many years do you think people will land on the moon again?",
+    "units": "years"
+  },
+  "q1_moon_football": {
+    "title": "Space Exploration",
+    "context": "In one football team there is 11 players.",
+    "comparison": "Not long ago there was a piloted journey around moon. Do you think that people will land on the moon in more or less than 11 years from now?",
+    "comparison_labels": ["More", "Less"],
+    "estimate": "In how many years do you think people will land on the moon again?",
+    "units": "years"
+  },
+
+  "q1_moon_none": {
+    "title": "Space Exploration",
+    "estimate": "In how many years do you think people will land on the moon again?",
+    "units": "years"
+  },
+  "q3_jordan_bahrain": {
+    "title": "Geography",
+    "context": "The highest point of Bahrain is 122 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_senegal": {
+    "title": "Geography",
+    "context": "The highest point of Senegal is 648 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_israel": {
+    "title": "Geography",
+    "context": "The highest point of Israel is 1208 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_czechia": {
+    "title": "Geography",
+    "context": "The highest point of Czechia is 1603 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_australia": {
+    "title": "Geography",
+    "context": "The highest point of Australia is 2228 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_north_korea": {
+    "title": "Geography",
+    "context": "The highest point of North Korea is 2744 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_south_africa": {
+    "title": "Geography",
+    "context": "The highest point of South Africa is 3450 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_japan": {
+    "title": "Geography",
+    "context": "The highest point of Japan is 3776 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_mongolia": {
+    "title": "Geography",
+    "context": "The highest point of Mongolia is 4374 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_france": {
+    "title": "Geography",
+    "context": "The highest point of France is 4810 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_mexico": {
+    "title": "Geography",
+    "context": "The highest point of Mexico is 5636 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_canada": {
+    "title": "Geography",
+    "context": "The highest point of Canada is 5959 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_bolivia": {
+    "title": "Geography",
+    "context": "The highest point of Bolivia is 6542 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_argentina": {
+    "title": "Geography",
+    "context": "The highest point of Argentina is 6960 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_bhutan": {
+    "title": "Geography",
+    "context": "The highest point of Bhutan is 7570 meters above sea level.",
+    "comparison": "Do you think that the highest point of Jordan is higher or lower than this elevation?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q3_jordan_none": {
+    "title": "Geography",
+    "estimate": "How high do you think the highest point of Jordan is?",
+    "units": "meters above sea level"
+  },
+  "q4_radio_tv_ireland": {
+    "title": "Public Services",
+    "context": "In Ireland they pay approximately 320 CZK (13 EUR) per month for public radio and television.",
+    "comparison": "Would you be willing to pay more or less than 320 CZK for public radio and television?",
+    "comparison_labels": ["More", "Less"],
+    "estimate": "How much would you be willing to pay monthly for public radio and television?",
+    "units": "CZK"
+  },
+  "q4_radio_tv_audio": {
+    "title": "Public Services",
+    "context": "Audio quality considered as high for streaming services is 320 kbps.",
+    "comparison": "Would you be willing to pay more or less than 320 CZK (= ~13 EUR) for public radio and television?",
+    "comparison_labels": ["More", "Less"],
+    "estimate": "How much would you be willing to pay monthly for public radio and television?",
+    "units": "CZK"
+  },
+  "q4_radio_tv_none": {
+    "title": "Public Services",
+    "estimate": "How much would you be willing to pay monthly for public radio and television (assume 1 EUR = 25 CZK)?",
+    "units": "CZK"
+  },
+  "q5_mars_oxygen": {
+    "title": "Planetary Science",
+    "context": "Oxygen melts at -218.79 °C (-361.82 °F).",
+    "comparison": "Do you think that the average temperature of Mars at daytime is higher or lower than this temperature?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "What do you think is the average temperature of Mars at daytime in degrees Celsius?",
+    "units": "°C"
+  },
+  "q5_mars_match": {
+    "title": "Planetary Science",
+    "context": "At -40 °C (-40 °F) both Celsius and Fahrenheit scales show the same temperature.",
+    "comparison": "Do you think that the average temperature of Mars at daytime is higher or lower than this temperature?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "What do you think is the average temperature of Mars at daytime in degrees Celsius?",
+    "units": "°C"
+  },
+  "q5_mars_water": {
+    "title": "Planetary Science",
+    "context": "Water freezes at 0 °C (32 °F).",
+    "comparison": "Do you think that the average temperature of Mars at daytime is higher or lower than this temperature?",
+    "comparison_labels": ["Higher", "Lower"],
+    "estimate": "What do you think is the average temperature of Mars at daytime in degrees Celsius?",
+    "units": "°C"
+  },
+  "q5_mars_none": {
+    "title": "Planetary Science",
+    "estimate": "What do you think is the average temperature of Mars at daytime in degrees Celsius? (for Fahrenheit leave us note)",
+    "units": "°C"
+  },
+  "feedback": {
+    "title": "Final Thoughts",
+    "text": "All responses are anonymous and will be used only for research purposes for school project. If you want to see the results of the project leave us your email address (optional):"
+  }
+}
