@@ -424,6 +424,7 @@ export default function StatProjPage() {
   const [lang, setLang] = useState<Lang>("en");
   const [email, setEmail] = useState<string | null>(null);
   const [contestantId, setContestantId] = useState<string | null>(null);
+  const [startedAt, setStartedAt] = useState<string | null>(null);
   
   const [assignedIds, setAssignedIds] = useState<QuestionId[]>([]);
   const [allQuestions, setAllQuestions] = useState<Record<QuestionId, SourceQuestion>>({});
@@ -468,6 +469,7 @@ export default function StatProjPage() {
         setAssignedIds(data.assignment);
         setContestantId(userId);
         setEmail(userEmail);
+        setStartedAt(new Date().toISOString());
       } else {
         setError(true);
       }
@@ -497,8 +499,31 @@ export default function StatProjPage() {
   };
 
   const handleSubmit = async () => {
-    console.log("Submit:", { email, contestantId, lang, answers });
-    setSubmitted(true);
+    setLoading(true);
+    try {
+      const res = await fetch("/api/survey", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contestantId,
+          email,
+          language: lang,
+          answers,
+          startedAt,
+        }),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setError(true);
+      }
+    } catch (err) {
+      console.error("Submit error:", err);
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (contestantId === null) {

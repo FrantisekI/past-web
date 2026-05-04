@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1777912275958,
+      "tag": "0000_common_redwing",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1777924131468,
+      "tag": "0001_curious_star_brand",
+      "breakpoints": true
+    }
+  ]
+}
