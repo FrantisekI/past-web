@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
       contestantId,
       email: email || null,
       language,
-      answers: JSON.stringify(answers),
+      answers: answers, // PostgreSQL JSONB takes the object directly
       startedAt: startedAt ? new Date(startedAt) : null,
     }).returning();
 

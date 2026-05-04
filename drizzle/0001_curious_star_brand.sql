@@ -1,1 +1,0 @@
-ALTER TABLE `survey_results` ADD `started_at` integer;
