@@ -54,9 +54,6 @@ const UI = {
     emailLabel: "Email address",
     emailPlaceholder: "your@email.com",
     emailNote: "Optional. Leave it if you'd like to receive the results of the study once it's complete.",
-    idLabel: "Contestant ID",
-    idPlaceholder: "e.g. 12345",
-    idNote: "Used to assign your specific question variants.",
     introPitch: "This is a short study on estimation. There are no right or wrong answers — just go with your gut feeling. It takes about 3 minutes.",
     thanksHeading: "Thank you.",
     thanksWithEmail: (e: string) => `Your responses have been recorded. We'll send the results to ${e}.`,
@@ -65,7 +62,7 @@ const UI = {
     partA: " — A",
     partB: " — B",
     viewResults: "View Results →",
-    errorLoading: "Failed to load survey. Please check your ID and try again.",
+    errorLoading: "Failed to load survey. Please try refreshing the page.",
     lastQuestionTitle: "Final Thoughts",
     lastQuestionText: "Any other comments or observations about the survey?",
   },
@@ -81,9 +78,6 @@ const UI = {
     emailLabel: "E-mailová adresa",
     emailPlaceholder: "vas@email.cz",
     emailNote: "Nepovinné. Zadejte, pokud chcete obdržet výsledky studie po jejím dokončení.",
-    idLabel: "ID účastníka",
-    idPlaceholder: "např. 12345",
-    idNote: "Slouží k přidělení vašich konkrétních variant otázek.",
     introPitch: "Toto je krátká studie o odhadování. Neexistují správné ani špatné odpovědi — jen se řiďte svým instinktem. Zabere přibližně 3 minuty.",
     thanksHeading: "Děkujeme.",
     thanksWithEmail: (e: string) => `Vaše odpovědi byly zaznamenány. Výsledky zašleme na ${e}.`,
@@ -92,7 +86,7 @@ const UI = {
     partA: " — A",
     partB: " — B",
     viewResults: "Zobrazit výsledky →",
-    errorLoading: "Nepodařilo se načíst dotazník. Zkontrolujte prosím své ID a zkuste to znovu.",
+    errorLoading: "Nepodařilo se načíst dotazník. Zkuste prosím obnovit stránku.",
     lastQuestionTitle: "Závěrečné postřehy",
     lastQuestionText: "Máte nějaké další komentáře nebo postřehy k dotazníku?",
   },
@@ -165,6 +159,12 @@ function IntroScreen({
   const [id, setId] = useState("");
   const t = UI[lang];
 
+  useEffect(() => {
+    // Generate a random 6-character alphanumeric ID
+    const randomId = Math.random().toString(36).substring(2, 8).toUpperCase();
+    setId(randomId);
+  }, []);
+
   return (
     <div className="min-h-screen bg-neutral-50 flex items-center justify-center p-6">
       <div className="max-w-lg w-full">
@@ -185,23 +185,6 @@ function IntroScreen({
         <div className="space-y-6 mb-10">
           <div className="border-2 border-neutral-900 p-6 bg-white">
             <label className="font-mono text-sm font-bold tracking-widest uppercase text-neutral-500 block mb-3">
-              {t.idLabel}
-            </label>
-            <input
-              type="text"
-              required
-              value={id}
-              onChange={(e) => setId(e.target.value)}
-              placeholder={t.idPlaceholder}
-              className="w-full border-b-4 border-neutral-400 bg-transparent font-mono text-xl font-bold py-2 px-1 focus:outline-none focus:border-neutral-900 placeholder-neutral-300"
-            />
-            <p className="font-mono text-sm text-neutral-400 mt-3 leading-relaxed">
-              {t.idNote}
-            </p>
-          </div>
-
-          <div className="border-2 border-neutral-900 p-6 bg-white">
-            <label className="font-mono text-sm font-bold tracking-widest uppercase text-neutral-500 block mb-3">
               {t.emailLabel}
             </label>
             <input
@@ -219,8 +202,8 @@ function IntroScreen({
 
         <button
           type="button"
-          disabled={!id.trim()}
-          onClick={() => onStart(email.trim(), id.trim())}
+          disabled={!id}
+          onClick={() => onStart(email.trim(), id)}
           className="font-mono text-base font-black tracking-widest uppercase px-8 py-4 border-2 border-neutral-900 bg-neutral-900 text-white hover:bg-white hover:text-neutral-900 transition-all duration-150 cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
         >
           {t.start}
