@@ -58,6 +58,11 @@ const UI = {
     thanksHeading: "Thank you.",
     thanksWithEmail: (e: string) => `Your responses have been recorded. We'll send the results to ${e}.`,
     thanksAnon: "Your responses have been recorded anonymously.",
+    alreadyFilled: "Already filled out? →",
+    confirmHeading: "Are you sure?",
+    confirmText: "The results page might contain spoilers for the study. We recommend viewing it only after completing the questionnaire.",
+    confirmYes: "Yes, show results",
+    confirmNo: "No, take me back",
     done: "✓",
     partA: " — A",
     partB: " — B",
@@ -82,6 +87,11 @@ const UI = {
     thanksHeading: "Děkujeme.",
     thanksWithEmail: (e: string) => `Vaše odpovědi byly zaznamenány. Výsledky zašleme na ${e}.`,
     thanksAnon: "Vaše odpovědi byly zaznamenány anonymně.",
+    alreadyFilled: "Již jste vyplnili? →",
+    confirmHeading: "Jste si jistí?",
+    confirmText: "Stránka s výsledky může obsahovat informace, které by mohly ovlivnit vaše odpovědi. Doporučujeme ji zobrazit až po vyplnění dotazníku.",
+    confirmYes: "Ano, zobrazit výsledky",
+    confirmNo: "Ne, zpět",
     done: "✓",
     partA: " — A",
     partB: " — B",
@@ -157,6 +167,7 @@ function IntroScreen({
 }) {
   const [email, setEmail] = useState("");
   const [id, setId] = useState("");
+  const [showConfirm, setShowConfirm] = useState(false);
   const t = UI[lang];
 
   useEffect(() => {
@@ -200,15 +211,54 @@ function IntroScreen({
           </div>
         </div>
 
-        <button
-          type="button"
-          disabled={!id}
-          onClick={() => onStart(email.trim(), id)}
-          className="font-mono text-base font-black tracking-widest uppercase px-8 py-4 border-2 border-neutral-900 bg-neutral-900 text-white hover:bg-white hover:text-neutral-900 transition-all duration-150 cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
-        >
-          {t.start}
-        </button>
+        <div className="flex flex-wrap gap-4">
+          <button
+            type="button"
+            disabled={!id}
+            onClick={() => onStart(email.trim(), id)}
+            className="font-mono text-base font-black tracking-widest uppercase px-8 py-4 border-2 border-neutral-900 bg-neutral-900 text-white hover:bg-white hover:text-neutral-900 transition-all duration-150 cursor-pointer disabled:opacity-30 disabled:cursor-not-allowed"
+          >
+            {t.start}
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setShowConfirm(true)}
+            className="font-mono text-base font-black tracking-widest uppercase px-8 py-4 border-2 border-neutral-900 bg-white text-neutral-900 hover:bg-neutral-900 hover:text-white transition-all duration-150 cursor-pointer shadow-[4px_4px_0px_0px_rgba(0,0,0,0.1)] active:translate-x-1 active:translate-y-1 active:shadow-none"
+          >
+            {t.alreadyFilled}
+          </button>
+        </div>
       </div>
+
+      {/* Confirmation Modal */}
+      {showConfirm && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-neutral-900/40 backdrop-blur-sm">
+          <div className="max-w-md w-full border-4 border-neutral-900 bg-white p-8 shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] animate-in fade-in zoom-in duration-200">
+            <h2 className="font-mono text-2xl font-black text-neutral-900 uppercase mb-4 border-b-4 border-neutral-900 pb-2">
+              {t.confirmHeading}
+            </h2>
+            <p className="text-lg font-semibold text-neutral-600 leading-relaxed mb-8">
+              {t.confirmText}
+            </p>
+            <div className="flex flex-col gap-3">
+              <Link
+                href="/results"
+                className="w-full text-center font-mono text-base font-black tracking-widest uppercase px-6 py-4 border-2 border-neutral-900 bg-neutral-900 text-white hover:bg-white hover:text-neutral-900 transition-all duration-150"
+              >
+                {t.confirmYes}
+              </Link>
+              <button
+                type="button"
+                onClick={() => setShowConfirm(false)}
+                className="w-full text-center font-mono text-base font-black tracking-widest uppercase px-6 py-4 border-2 border-neutral-300 text-neutral-400 hover:border-neutral-900 hover:text-neutral-900 transition-all duration-150"
+              >
+                {t.confirmNo}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
