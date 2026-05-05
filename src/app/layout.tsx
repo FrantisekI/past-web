@@ -18,8 +18,8 @@ const ebGaramond = EB_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Stat Project | Portfolio",
-  description: "Personal portfolio and interactive questionnaire",
+  title: "Stat Project",
+  description: "Interactive questionnaire for the Statistics project",
 };
 
 export default function RootLayout({

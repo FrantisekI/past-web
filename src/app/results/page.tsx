@@ -5,7 +5,7 @@ export default function ResultsPage() {
     <main className="min-h-screen bg-neutral-100 flex items-center justify-center p-8">
       <div className="max-w-xl w-full border-8 border-black bg-white p-12 text-center shadow-[20px_20px_0px_0px_rgba(0,0,0,1)]">
         <div className="font-mono text-sm font-black tracking-widest bg-black text-white px-4 py-1 uppercase inline-block mb-8">
-          stat-proj / results
+          results
         </div>
         <h1 className="font-mono text-5xl font-black text-black uppercase mb-8 border-b-8 border-black pb-4">
           Results Coming Soon
