@@ -454,7 +454,7 @@ function EstimateField({
 
 export default function StatProjPage() {
   const [mounted, setMounted] = useState(false);
-  const [lang, setLang] = useState<Lang>("en");
+  const [lang, setLang] = useState<Lang>("cz");
   const [email, setEmail] = useState<string | null>(null);
   const [contestantId, setContestantId] = useState<string | null>(null);
   const [startedAt, setStartedAt] = useState<string | null>(null);
